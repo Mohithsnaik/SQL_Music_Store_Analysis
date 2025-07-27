@@ -1,5 +1,5 @@
-#Project Description: Pizza Sales Analysis Using SQL
-##This project demonstrates a comprehensive analysis of pizza sales using SQL, leveraging real-world data to gain actionable insights into business performance. The analysis utilizes four interrelated tables and includes a variety of SQL queries ranging from basic to advanced levels. Key highlights of the analysis include:
+# Project Description: Pizza Sales Analysis Using SQL
+## This project demonstrates a comprehensive analysis of pizza sales using SQL, leveraging real-world data to gain actionable insights into business performance. The analysis utilizes four interrelated tables and includes a variety of SQL queries ranging from basic to advanced levels. Key highlights of the analysis include:
 
 Percentage Contribution of Each Pizza Type to Total Revenue
 
