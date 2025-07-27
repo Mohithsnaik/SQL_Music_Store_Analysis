@@ -45,9 +45,6 @@ The dataset simulates a digital music platform and consists of the following CSV
 | `invoice.csv`      | 	Stores purchase transactions made by customers           |
 | `track.csv`        | Contains metadata for individual music tracks             |
 
-> ⚠ Note: `invoice.csv` and `track.csv` are referenced in queries but not included here. Some queries assume their structure.
-
----
 
 ## 📊 Key Analytical Queries
 
