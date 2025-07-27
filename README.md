@@ -1,34 +1,78 @@
-# Project Description: Music Store Analysis Using SQL
-## This project demonstrates a comprehensive analysis of pizza sales using SQL, leveraging real-world data to gain actionable insights into business performance. The analysis utilizes four interrelated tables and includes a variety of SQL queries ranging from basic to advanced levels. Key highlights of the analysis include:
+# 🎵 Music Store Sales Analysis using SQL
 
-Percentage Contribution of Each Pizza Type to Total Revenue
+## Project Overview
 
-Analyzed the share of each pizza type in the overall revenue, providing insights into the most profitable products.
-Top 3 Most Ordered Pizza Types by Revenue per Category
+This project demonstrates practical SQL skills by analyzing a digital music store's data to derive actionable business insights. Using real-world relational data, I performed in-depth analysis on customer behavior, sales trends, and artist performance to support data-driven decision-making for marketing and operations.
 
-Identified the top-performing pizzas in each category (e.g., vegetarian, non-vegetarian) based on their revenue contribution.
-Order Distribution by Hour of the Day
+>  **Focus**: Revenue analysis, genre preferences, customer segmentation, and top-performing artists.
 
-Examined the hourly order patterns to determine peak times for customer orders, aiding in workforce optimization and promotional strategies.
-Cumulative Revenue Analysis Over Time
+---
 
-Tracked how revenue accumulates over a specified period, highlighting trends and seasonality in customer spending behavior.
-Dataset Overview
-The analysis is powered by four key tables:
+## Tools & Technologies
 
-Orders: Contains details of order_id, order_date, order_time.
-Order Details: Holds details about order_details_id, order_id, pizza_id , quantity.
-Pizzas: Holds details about pizza_id ,pizza_type_id ,size , price.
-Pizza types: Holds details about pizza_type_id, name, category, ingredients.
-Techniques and SQL Concepts
-This project showcases the use of diverse SQL techniques and concepts, including:
+- **SQL** – Data querying and transformation
+- **DBMS** – SQLite (CSV-based relational structure)
+- **Environment** – DB Browser for SQLite / MySQL Workbench / DBeaver
+- **Data Source** – Raw `.csv` files imported into a SQL-compatible engine
 
-Basic queries: Data extraction, filtering, and sorting.
-Aggregations: SUM, COUNT, AVG, and GROUP BY to summarize data.
-Window functions: RANK, ROW_NUMBER, and CUME_DIST for advanced insights.
-Joins: Combining data across multiple tables for comprehensive analysis.
-Subqueries and CTEs: Structuring complex queries for readability and efficiency.
-Date and time functions: Analyzing trends based on timestamps.
-Dynamic calculations: Metrics like percentage contributions and cumulative totals.
-Outcome
-The insights derived from this analysis are instrumental in identifying high-performing products, understanding customer behavior, and optimizing operational strategies. This project is a robust example of leveraging SQL for data-driven decision-making in the food and beverage industry.
+---
+
+## Key Objectives
+
+- Identify high-value customers and top revenue-generating countries and cities
+- Explore music genre popularity across different countries
+- Determine which artists and tracks drive the most sales
+- Segment customers based on their music preferences and spending patterns
+- Practice using SQL joins, subqueries, window functions, and CTEs
+
+---
+
+## Dataset Description
+
+The dataset simulates a digital music platform and consists of the following CSV-based tables:
+
+| Table Name         | Description                                               |
+|--------------------|-----------------------------------------------------------|
+| `customer.csv`     | Customer details (ID, name, country)                      |
+| `employee.csv`     | Employee hierarchy and job titles                         |
+| `artist.csv`       | Artist metadata                                           |
+| `album2.csv`       | Album details (linked to artists)                         |
+| `genre.csv`        | Music genres                                              |
+| `media_type.csv`   | Audio file format types                                   |
+| `playlist.csv`     | Playlist metadata                                         |
+| `playlist_track.csv` | Track-to-playlist mapping (many-to-many)               |
+| `invoice_line.csv` | Individual purchase items with pricing and track info     |
+
+> ⚠ Note: `invoice.csv` and `track.csv` are referenced in queries but not included here. Some queries assume their structure.
+
+---
+
+## 📊 Key Analytical Queries
+
+### 🧑‍💼 Business Operations
+- Who is the **senior-most employee** based on job title?
+- What are the **top 3 invoice totals** across the store?
+- Which **cities** and **countries** generated the most revenue?
+
+### 🎧 Customer & Music Preferences
+- Who are the **best customers** by spending?
+- Which **customers listen to Rock music** most?
+- What are the **longest tracks** (above average song duration)?
+- Which **artists wrote the most Rock tracks**?
+
+### 📈 Advanced Insights using CTEs & Window Functions
+- How much has each customer spent on the **top-selling artist**?
+- What is the **most popular genre per country**?
+- Who is the **top customer in each country**?
+
+---
+
+## 🧠 Sample Query
+
+```sql
+-- Find the city that generated the most revenue
+SELECT billing_city, SUM(total) AS invoice_total
+FROM invoice
+GROUP BY billing_city
+ORDER BY invoice_total DESC
+LIMIT 1;
