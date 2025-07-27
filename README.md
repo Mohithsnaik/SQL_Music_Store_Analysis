@@ -40,8 +40,10 @@ The dataset simulates a digital music platform and consists of the following CSV
 | `genre.csv`        | Music genres                                              |
 | `media_type.csv`   | Audio file format types                                   |
 | `playlist.csv`     | Playlist metadata                                         |
-| `playlist_track.csv` | Track-to-playlist mapping (many-to-many)               |
+| `playlist_track.csv` | Track-to-playlist mapping (many-to-many)                |
 | `invoice_line.csv` | Individual purchase items with pricing and track info     |
+| `invoice.csv`      | 	Stores purchase transactions made by customers           |
+| `track.csv`        | Contains metadata for individual music tracks             |
 
 > ⚠ Note: `invoice.csv` and `track.csv` are referenced in queries but not included here. Some queries assume their structure.
 
