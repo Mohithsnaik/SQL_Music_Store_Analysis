@@ -27,3 +27,15 @@ A set of SQL queries used to analyze data from a music store database, along wit
 <img width="266" height="353" alt="image" src="https://github.com/user-attachments/assets/5a16a878-75fe-4e75-b7f8-9f23457f0032" />
 
 ---
+
+## 3. Which countries have the most Invoices? 
+
+**📄 Query:**
+
+<img width="704" height="259" alt="image" src="https://github.com/user-attachments/assets/6ad00a38-ed05-43f1-944b-44c2d1f0c611" />
+
+**📊 Output:**
+
+<img width="238" height="184" alt="image" src="https://github.com/user-attachments/assets/37149a83-91f4-41dd-86a8-d41ed520ea54" />
+
+---
