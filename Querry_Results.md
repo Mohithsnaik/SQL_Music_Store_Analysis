@@ -100,7 +100,7 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 ---
 
-## 9. Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent
+## 9. Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent.
 
 **📄 Query:**
 
@@ -111,3 +111,26 @@ A set of SQL queries used to analyze data from a music store database, along wit
 <img width="594" height="418" alt="image" src="https://github.com/user-attachments/assets/376d7ceb-7adb-40b9-bbd1-6b320f91c437" />
 
 ---
+
+## 10. We want to find out the most popular music Genre for each country. We determine the most popular genre as the genre with the highest amount of purchases. Write a query that returns each country along with the top Genre. For countries where the maximum number of purchases is shared return all Genres.
+
+**📄 Query:**
+
+<img width="1467" height="579" alt="image" src="https://github.com/user-attachments/assets/a4334e03-cdc6-4f7d-a249-0218d7d3c8ae" />
+
+**📊 Output:**
+
+<img width="437" height="428" alt="image" src="https://github.com/user-attachments/assets/4e983aa8-c7e0-4960-88c2-fa10aca56e92" />
+
+---
+
+## 11. Write a query that determines the customer that has spent the most on music for each country. Write a query that returns the country along with the top customer and how much they spent. For countries where the top amount spent is shared, provide all customers who spent this amount.
+
+**📄 Query:**
+
+<img width="1255" height="460" alt="image" src="https://github.com/user-attachments/assets/5d44e75b-6327-4c0a-8e1a-1c82a6923c3f" />
+
+**📊 Output:**
+
+<img width="678" height="591" alt="image" src="https://github.com/user-attachments/assets/c4c05f6b-7b75-4232-a727-375586d79fa3" />
+
