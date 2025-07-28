@@ -64,13 +64,14 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 ---
 
-## 6. Write a query that returns the person who has spent the most money.
+## 6. Write query to return the email, first name, last name, & Genre of all Rock Music listeners.Return your list ordered alphabetically by email starting with A.
 
 **📄 Query:**
 
+<img width="1294" height="420" alt="image" src="https://github.com/user-attachments/assets/8f396d54-8d3f-46aa-b8cb-52525440d941" />
 
 **📊 Output:**
 
-
+<img width="510" height="472" alt="image" src="https://github.com/user-attachments/assets/c38eb398-cf4b-4bd2-ae31-6a9497aa732b" />
 
 ---
