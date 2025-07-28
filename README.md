@@ -63,3 +63,6 @@ The dataset simulates a digital music platform and consists of the following CSV
 - How much has each customer spent on the **top-selling artist**?
 - What is the **most popular genre per country**?
 - Who is the **top customer in each country**?
+
+
+➡️ [See Summary & Business Insights](./Insights.md)
