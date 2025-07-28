@@ -66,3 +66,5 @@ The dataset simulates a digital music platform and consists of the following CSV
 
 
 ➡️ [See Summary & Business Insights](./Insights.md)
+📊 [See SQL Queries and Outputs](./Query_Results.md)
+
