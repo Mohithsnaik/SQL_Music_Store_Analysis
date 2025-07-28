@@ -51,3 +51,26 @@ A set of SQL queries used to analyze data from a music store database, along wit
 <img width="378" height="253" alt="image" src="https://github.com/user-attachments/assets/8a39f62f-0d04-4134-8d7b-e35d7732a3b6" />
 
 ---
+
+## 5. Write a query that returns the person who has spent the most money.
+
+**📄 Query:**
+
+<img width="1056" height="341" alt="image" src="https://github.com/user-attachments/assets/338740f2-458f-425e-a2da-1c1f749b44ee" />
+
+**📊 Output:**
+
+<img width="473" height="120" alt="image" src="https://github.com/user-attachments/assets/b17107ab-8aa6-4ce1-9f2c-d12e3aaf2777" />
+
+---
+
+## 6. Write a query that returns the person who has spent the most money.
+
+**📄 Query:**
+
+
+**📊 Output:**
+
+
+
+---
