@@ -1,14 +1,11 @@
-## 📸 SQL Query Results with Visual Output
+# Heading 1
 
-This section presents key SQL queries and their corresponding output screenshots for business insights derived from the music store database.
+## Heading 2
 
----
-### 1. 👔 Who is the senior-most employee?
+**Bold Text**  
+_Italic Text_
 
-![q1](https://github.com/user-attachments/assets/6ea2055a-1d0e-46a8-bca1-b0875d52f61f)
+- List item 1
+- List item 2
 
----
-
-### 2. 🌍 Which countries have the most invoices?
-
-![q2](https://github.com/user-attachments/assets/181abb9b-6ae3-48ed-80ec-f038f0f1f247)
+![Test Image](https://github.com/github.png?raw=true)
