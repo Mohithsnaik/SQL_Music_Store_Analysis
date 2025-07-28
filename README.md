@@ -58,7 +58,10 @@ The dataset simulates a digital music platform and consists of the following CSV
 | `track.csv`        | Contains metadata for individual music tracks             |
 
 
+---
 
-➡️ [See Summary & Business Insights](./Insights.md)
-📊 [See SQL Queries and Outputs](./Query_Results.md)
+For a detailed summary of key takeaways and the complete SQL workflow:
+
+- ➡️ **[Summary & Business Insights](./Insights.md)**
+- 📊 **[SQL Queries and Outputs](./Query_Results.md)**
 
