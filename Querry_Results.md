@@ -88,8 +88,7 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 ---
 
-## 8. Return all the track names that have a song length longer than the average song length. 
-Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
+## 8. Return all the track names that have a song length longer than the average song length. Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
 
 **📄 Query:**
 
@@ -98,5 +97,17 @@ Return the Name and Milliseconds for each track. Order by the song length with t
 **📊 Output:**
 
 <img width="406" height="515" alt="image" src="https://github.com/user-attachments/assets/d8a75845-b156-41e3-8ef3-a043fe5eba45" />
+
+---
+
+## 9. Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent
+
+**📄 Query:**
+
+<img width="914" height="861" alt="image" src="https://github.com/user-attachments/assets/531a7ab4-1e2f-4c05-821d-6326ab62d4f1" />
+
+**📊 Output:**
+
+<img width="594" height="418" alt="image" src="https://github.com/user-attachments/assets/376d7ceb-7adb-40b9-bbd1-6b320f91c437" />
 
 ---
