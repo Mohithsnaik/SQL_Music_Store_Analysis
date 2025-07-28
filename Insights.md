@@ -1,7 +1,7 @@
 
 ## 📌 Summary & Key Insights
 
--  **Leadership Insight**: Jane Peacock holds the most senior job title in the organization, highlighting her potential role in high-level decision-making.
+-  **Leadership Insight**: Adams Andrew holds the most senior job title in the organization, highlighting her potential role in high-level decision-making.
 
 -  **Top Invoice Volume by Country**: The United States has the highest number of invoices, indicating a strong customer base and market reach.
 
