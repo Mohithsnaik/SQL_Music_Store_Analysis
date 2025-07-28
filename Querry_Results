@@ -1,11 +1,4 @@
-# Heading 1
+# SQL Music Store Analysis
 
-## Heading 2
-
-**Bold Text**  
-_Italic Text_
-
-- List item 1
-- List item 2
-
-![Octocat](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+1. Retrieve the total number of invoices placed.  
+![Q1](https://github.com/user-attachments/assets/3cec7c0d-276c-4d9a-87eb-4540b3823ca3)
