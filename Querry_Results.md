@@ -89,14 +89,14 @@ A set of SQL queries used to analyze data from a music store database, along wit
 ---
 
 ## 8. Return all the track names that have a song length longer than the average song length. 
-      Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
+Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
 
 **📄 Query:**
 
-<img width="1221" height="458" alt="image" src="https://github.com/user-attachments/assets/424be869-881d-4601-80b2-6235a091a0b5" />
+<img width="1224" height="396" alt="image" src="https://github.com/user-attachments/assets/e5f08e2c-c8b1-4fef-aaa7-60ac3e60a108" />
 
 **📊 Output:**
 
-<img width="478" height="266" alt="image" src="https://github.com/user-attachments/assets/6ff06c9b-19d9-436d-8756-485746027bb7" />
+<img width="406" height="515" alt="image" src="https://github.com/user-attachments/assets/d8a75845-b156-41e3-8ef3-a043fe5eba45" />
 
 ---
