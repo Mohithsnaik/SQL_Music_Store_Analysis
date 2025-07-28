@@ -64,7 +64,7 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 ---
 
-## 6. Write query to return the email, first name, last name, & Genre of all Rock Music listeners.Return your list ordered alphabetically by email starting with A.
+## 6. Write query to return the email, first name, last name, & Genre of all Rock Music listeners. Return your list ordered alphabetically by email starting with A.
 
 **📄 Query:**
 
@@ -73,5 +73,17 @@ A set of SQL queries used to analyze data from a music store database, along wit
 **📊 Output:**
 
 <img width="510" height="472" alt="image" src="https://github.com/user-attachments/assets/c38eb398-cf4b-4bd2-ae31-6a9497aa732b" />
+
+---
+
+## 7.Let's invite the artists who have written the most rock music in our dataset. Write a query that returns the Artist name and total track count of the top 10 rock bands.
+
+**📄 Query:**
+
+<img width="1221" height="458" alt="image" src="https://github.com/user-attachments/assets/424be869-881d-4601-80b2-6235a091a0b5" />
+
+**📊 Output:**
+
+<img width="478" height="266" alt="image" src="https://github.com/user-attachments/assets/6ff06c9b-19d9-436d-8756-485746027bb7" />
 
 ---
