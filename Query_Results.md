@@ -134,3 +134,7 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 <img width="678" height="591" alt="image" src="https://github.com/user-attachments/assets/c4c05f6b-7b75-4232-a727-375586d79fa3" />
 
+
+
+
+
