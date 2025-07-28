@@ -28,7 +28,7 @@ A set of SQL queries used to analyze data from a music store database, along wit
 
 ---
 
-## 3. Which countries have the most Invoices? 
+## 3. What are top 3 values of total invoice?
 
 **📄 Query:**
 
@@ -37,5 +37,17 @@ A set of SQL queries used to analyze data from a music store database, along wit
 **📊 Output:**
 
 <img width="238" height="184" alt="image" src="https://github.com/user-attachments/assets/37149a83-91f4-41dd-86a8-d41ed520ea54" />
+
+---
+
+## 4. Which city has generated the highest revenue from invoices?
+
+**📄 Query:**
+
+<img width="881" height="270" alt="image" src="https://github.com/user-attachments/assets/5209b292-29d3-47b9-8fb0-f70fab31885b" />
+
+**📊 Output:**
+
+<img width="378" height="253" alt="image" src="https://github.com/user-attachments/assets/8a39f62f-0d04-4134-8d7b-e35d7732a3b6" />
 
 ---
